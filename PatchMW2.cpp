@@ -160,7 +160,7 @@ void patchTU8BootXEXOnDev()
 	WriteMemory((LPVOID)0x8214D464, 2, (LPCVOID)&alwaysBranchPatch);
 
 	//Constant Double Tap
-	//WriteMemory((LPVOID)0x820DD878, 4, (LPCVOID)&NOP);
+	WriteMemory((LPVOID)0x820DD878, 4, (LPCVOID)&NOP);
 
 	//Version Name
 	short versionNamePatch1;
