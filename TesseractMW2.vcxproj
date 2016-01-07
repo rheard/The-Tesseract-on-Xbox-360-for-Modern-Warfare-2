@@ -105,7 +105,7 @@
     <OutputFile>$(OutDir)$(TargetName).exe</OutputFile>
     <ImageXexOutput>$(OutDir)$(TargetName).dll</ImageXexOutput>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <SourcePath>C:\Users\Ryan\Documents\Visual Studio 2010\Projects\alterIW4\IW5;$(SourcePath)</SourcePath>
+    <SourcePath>C:\Users\Ryan\Documents\Visual Studio 2010\Projects\alterIW4\TesseractMW2;$(SourcePath)</SourcePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_LTCG|Xbox 360'">
     <LinkIncremental>false</LinkIncremental>
